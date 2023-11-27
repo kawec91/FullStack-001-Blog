@@ -1,0 +1,16 @@
+.titelAndFormDiv {
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.titelAndFormDiv h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.formDiv {
+    display: flex;
+    gap: 10px;
+}

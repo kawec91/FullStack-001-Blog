@@ -1,0 +1,15 @@
+.findenResultListe {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formDiv{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}

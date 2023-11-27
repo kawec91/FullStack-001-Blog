@@ -1,0 +1,24 @@
+.errDiv {
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid red;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
+.errDiv button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    cursor: pointer;
+}
+
+
+.errDiv h3 {
+    margin-right: 35px;
+    
+}

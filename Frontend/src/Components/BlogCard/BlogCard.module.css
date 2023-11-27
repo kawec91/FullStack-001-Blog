@@ -1,0 +1,35 @@
+.blogCardDiv {
+    padding: 25px;
+    border: 1px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(75, 214, 205, 0.692);
+}
+
+.titelDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titelDiv h3 {
+    margin:0;
+    text-shadow: 2px 2px 2px black;
+}
+
+.buttonDiv {
+    display: flex;
+    gap: 10px;
+}
+
+.blogCardDiv p {
+    color: white;
+}
+
+input {
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid black;
+    color: orangered;
+}

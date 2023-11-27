@@ -1,0 +1,76 @@
+.freundCardDiv {
+    display:  flex;
+    border-radius: 25px;
+    padding: 25px;
+    align-items: center;
+    position: relative;
+    background-image: linear-gradient(to bottom right, rgb(49,120,115), rgb(247,240,82));
+    width: 800px;
+    margin-bottom: 10px;
+}
+.freundCardDiv:hover{
+    box-shadow: 0px 0px 10px orangered;
+}
+
+.freundProfileDiv {
+    width: 160px;
+    height: 190px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+.freundProfileImg {
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+}
+.freundDetailsName {
+    color: orangered;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid rgb(86,63,27);
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.freundDetails img{
+    width: 48px;
+    height: 48px;
+}
+
+.freundDetailsContactDiv {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.185);
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.freundCardRemove {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.freundCardRemove button {
+    padding: 5px 15px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.freundCardDiv h3{
+    text-shadow: 1px 1px black;
+}

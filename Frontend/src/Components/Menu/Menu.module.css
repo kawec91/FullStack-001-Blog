@@ -1,0 +1,39 @@
+.menuDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.menuListe {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.menuListe a {
+    text-decoration: none;
+    color: orangered;
+    border: 1px solid orangered;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menuListe a:hover {
+    color: white;
+    background-color: orangered;
+}
+
+.textColor a {
+    color: orangered;
+}
+
+.textColor button {
+    background-color: transparent;
+    border: none;
+    font-size: 101%;
+}
